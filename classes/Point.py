@@ -1,6 +1,10 @@
 import numpy as np
 
 
+def sigma(capacity):
+    return 0.1
+
+
 def time_by_capacity(capacity):
     return 0.0003 * capacity ** 3 - 0.0092 * capacity ** 2 + 0.0882 * capacity
 
@@ -19,7 +23,9 @@ class Point:
             self.capacity = 0.0
 
         self.time = max(0, np.random.normal(
-            time_by_capacity(self.capacity), 0.1))
+            time_by_capacity(self.capacity),
+            sigma(self.capacity)
+        ))
 
     @property
     def coords(self):

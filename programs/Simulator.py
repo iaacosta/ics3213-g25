@@ -25,7 +25,6 @@ class Simulator:
 
     def simulate_routes(self, truck):
         arrive = self.env.now
-        self.log(f'Camión {truck.id} comenzó el día')
 
         for route in truck.routes.values():
             self.log(
@@ -43,12 +42,16 @@ class Simulator:
 
                     # Time in point
                     yield self.env.timeout(current_point.time)
-                    # Time in route
-                    if next_point:
-                        yield self.env.timeout(1)
-
                     self.log(
                         f'Camión {truck.id} pasó por punto {current_point.name}')
+
+                    # Time in route
+                    if next_point:
+                        self.log(
+                            f'Camión viaja de {current_point.name} a {next_point.name}')
+                        yield self.env.timeout(1)
+
+            self.log(f'Camión vuelve a municipalidad')
 
     def run(self):
         self.env.process(self.simulate_trucks())
