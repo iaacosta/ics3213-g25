@@ -45,14 +45,16 @@ class Simulator:
                 results = yield request_truck
 
                 # Time in point
+                self.log(
+                    f'Camión {truck.id} comienza trabajo en {current_point.name}')
                 yield self.env.timeout(current_point.time)
                 self.log(
-                    f'Camión {truck.id} pasó por punto {current_point.name}')
+                    f'Camión {truck.id} termina trabajo en {current_point.name}')
 
                 # Time in route
                 if next_point:
                     self.log(
-                        f'Camión viaja de {current_point.name} a {next_point.name}')
+                        f'Camión {truck.id} viaja de {current_point.name} a {next_point.name}')
                     yield self.env.timeout(self.times[current_point.id][next_point.id])
 
         self.log(f'Camión vuelve a municipalidad')
