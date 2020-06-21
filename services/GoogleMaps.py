@@ -12,7 +12,7 @@ class GoogleMapsHelper:
         now = datetime.now()
 
         directions = self.client.directions(origin.coords, destination.coords,
-                                            mode="transit", departure_time=now)
+                                            mode="driving", departure_time=now)
 
         if unit == 'hours':
             factor = 3600
@@ -21,4 +21,8 @@ class GoogleMapsHelper:
         else:
             factor = 1
 
-        return directions[0]['legs'][0]['duration']['value'] / factor
+        leg = directions[0]['legs'][0]
+        try:
+            return leg['duration']['value'] / factor
+        except KeyError:
+            return 0 / factor
