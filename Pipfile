@@ -12,6 +12,7 @@ pylint = "*"
 rope = "*"
 numpy = "*"
 googlemaps = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.8"

@@ -34,11 +34,11 @@ class SimulationTruck:
 
 
 class Simulator:
-    def __init__(self, day, trucks_file_path, times_file_path='times_matrix.csv', should_log=True):
+    def __init__(self, day, trucks_file_path, should_log=True):
         self.day = day
         self.should_log = should_log
         self.env = simpy.Environment()
-        self.times = read_times(times_file_path)
+        self.times = read_times()
 
         original_trucks = read_routes(trucks_file_path)
         self.simulation_trucks = dict(map(
