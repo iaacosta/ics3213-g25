@@ -1,46 +1,24 @@
 import simpy
-from classes import Truck, Point, Route
-from services import GoogleMapsHelper
-from helpers import week_day, read_routes, read_times
+from classes import SimulationTruck
+from helpers import read_routes, read_times, read_capacities
 
 TAB = '  '
 
 
-class SimulationTruck:
-    def __init__(self, env, truck):
-        self.truck = truck
-        self.resource = simpy.Resource(env)
-
-        # Statistics relative to truck capacity
-        self.fills = 0
-        self.current_load = 0
-        self.unloaded = 0
-
-        # Statistics relative to time on transit and working
-        self.transit_time = 0
-        self.unload_time = 0
-
-    def transit(self, time):
-        self.transit_time += time
-
-    def load(self, time, load):
-        self.unload_time += time
-        self.current_load += load
-
-        if (self.current_load >= 40):
-            self.unloaded += self.current_load
-            self.current_load = 0
-            self.fills += 1
-
-
 class Simulator:
-    def __init__(self, day, trucks_file_path, should_log=True):
+    def __init__(self, day, routes_file_path, trucks_file_path, should_log=True):
         self.day = day
         self.should_log = should_log
         self.env = simpy.Environment()
-        self.times = read_times()
+        self.times = {}
+        self.simulation_trucks = {}
 
-        original_trucks = read_routes(trucks_file_path)
+        self.read(routes_file_path, trucks_file_path)
+
+    def read(self, routes_file_path, trucks_file_path):
+        self.times = read_times()
+        original_trucks = read_routes(routes_file_path)
+        read_capacities(trucks_file_path, original_trucks)
         self.simulation_trucks = dict(map(
             lambda truck: (truck.id, SimulationTruck(self.env, truck)),
             original_trucks.values()
@@ -97,7 +75,7 @@ class Simulator:
 
                 yield self.env.timeout(current_point.time)
                 simulation_truck.load(current_point.time,
-                                      current_point.capacity)
+                                      current_point.volume)
 
                 self.event_log(
                     f'Camión {truck.id} termina trabajo en {current_point.name}')
@@ -120,7 +98,7 @@ class Simulator:
         self.raw_log('------------\n', 1)
 
         self.raw_log(
-            f'TIEMPO TOTAL DE SIMULACIÓN - {self.env.now:.3f}hrs\n', 2)
+            f'TIEMPO TOTAL DE SIMULACIÓN (hrs): {self.env.now:.3f}\n', 2)
 
         for sim_truck in self.simulation_trucks.values():
             truck = sim_truck.truck
@@ -132,13 +110,19 @@ class Simulator:
                 continue
 
             self.raw_log(
-                f'Cantidad de veces que sobrepasó su capacidad: {sim_truck.fills}', 3)
+                f'Capacidad (m3): {sim_truck.truck.capacity}', 3)
 
             self.raw_log(
-                f'Tiempo en descarga: {sim_truck.unload_time:.3f}hrs', 3)
+                f'Cantidad recolectada (m3): {(sim_truck.current_load + sim_truck.unloaded):.3f}', 3)
 
             self.raw_log(
-                f'Tiempo en tránsito: {sim_truck.transit_time:.3f}hrs', 3)
+                f'Cantidad de viajes: {sim_truck.trips}', 3)
+
+            self.raw_log(
+                f'Tiempo en descarga (hrs): {sim_truck.unload_time:.3f}', 3)
+
+            self.raw_log(
+                f'Tiempo en tránsito (hrs): {sim_truck.transit_time:.3f}', 3)
 
             print()
 

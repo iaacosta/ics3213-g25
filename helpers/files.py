@@ -65,3 +65,10 @@ def read_routes(file_name):
                 trucks[row['truck']].add_point(row['day'], row)
 
     return trucks
+
+
+def read_capacities(file_name, trucks):
+    with open(get_data_path(file_name)) as file:
+        for row in csv.DictReader(file):
+            if trucks.get(row['id']):
+                trucks[row['id']].capacity = float(row['capacity'])

@@ -71,6 +71,16 @@ truck,day,order,id,namePoint,lat,lon,volume
 0,3,200,162,Sede Social Carol Urzúa,-33.602424,-70.560024,4.032000
 0,3,201,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.800000
 0,3,202,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.523690,17.175000
+0,4,269,9,Centro Comercial Plaza Puente,-33.611712,-70.576687,10.800000
+0,4,270,166,Sede Social Real Audiencia ,-33.622626,-70.587247,4.032000
+0,4,271,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.800000
+0,4,272,184,Dimao,-33.612239,-70.578518,10.800000
+0,4,273,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,10.800000
+0,4,274,104,Colegio Maipo ,-33.613454,-70.559315,5.247000
+0,4,275,49,Liceo San Gerónimo,-33.627809,-70.587286,17.280000
+0,4,276,39,Sede Social Villa Las Caletas III,-33.596381,-70.563908,13.800000
+0,4,277,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.523690,17.175000
+0,4,278,129,Escuela Los Andes,-33.614168,-70.563690,12.720000
 1,0,241,89,Centro De Salud Laurita Vicuña,-33.590997,-70.595345,10.800000
 1,0,245,74,Duoc Uc,-33.598372,-70.578556,10.800000
 1,0,246,75,Edificio Consistorial,-33.595374,-70.579321,4.032000

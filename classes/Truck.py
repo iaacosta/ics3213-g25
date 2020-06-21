@@ -5,6 +5,7 @@ class Truck:
     def __init__(self, _id):
         self.id = int(_id) + 1
         self.routes = {}
+        self.capacity = 0
 
     def add_point(self, route_id, point):
         if self.routes.get(route_id):
