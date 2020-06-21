@@ -1,17 +1,25 @@
-from os import path
-from classes import Truck, Point
+import os
 import csv
+from classes import Truck, Point
 
 
 def get_data_path(file_name):
-    return path.join(path.abspath('.'), 'data', file_name)
+    return os.path.join(os.path.abspath('.'), 'data', file_name)
 
 
 def write_times_between(times_between):
-    with open(get_data_path('times_matrix.csv'), 'w') as file:
+    file_path = get_data_path('times_matrix.csv')
+
+    mode = 'a'
+    if not os.path.lexists(file_path):
+        mode = 'w'
+
+    with open(get_data_path('times_matrix.csv'), mode) as file:
         writer = csv.DictWriter(file, times_between[0].keys())
 
-        writer.writeheader()
+        if mode == 'w':
+            writer.writeheader()
+
         for time_between in times_between:
             writer.writerow(time_between)
 
