@@ -1,12 +1,25 @@
 import numpy as np
 
 
-def sigma(capacity):
+def sigma(volume):
     return 0.1
 
 
-def time_by_capacity(capacity):
-    return 0.0003 * capacity ** 3 - 0.0092 * capacity ** 2 + 0.0882 * capacity
+def time_by_scraps(volume):
+    return 0.0003 * volume ** 3 - 0.0092 * volume ** 2 + 0.0882 * volume
+
+
+def volume_by_capacity(capacity):
+    mean_percentage = 0.7
+    std_percentage = 0.4
+    random = np.random.normal(
+        capacity * mean_percentage, capacity * std_percentage)
+    return min(capacity, random)
+
+
+def time(volume):
+    random = np.random.normal(time_by_scraps(volume), sigma(volume))
+    return max(0, random)
 
 
 class Point:
@@ -17,15 +30,8 @@ class Point:
         self.lat = float(kwargs['lat'])
         self.lon = float(kwargs['lon'])
 
-        if kwargs.get('volume'):
-            self.capacity = float(kwargs['volume'])
-        else:
-            self.capacity = 0.0
-
-        self.time = max(0, np.random.normal(
-            time_by_capacity(self.capacity),
-            sigma(self.capacity)
-        ))
+        self.volume = volume_by_capacity(float(kwargs['volume']))
+        self.time = time(self.volume)
 
     @property
     def coords(self):
