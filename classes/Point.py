@@ -12,7 +12,7 @@ def time_by_capacity(capacity):
 class Point:
     def __init__(self, **kwargs):
         self.id = int(kwargs['id'])
-        self.name = kwargs['name'].strip()
+        self.name = kwargs['namePoint'].strip()
 
         self.lat = float(kwargs['lat'])
         self.lon = float(kwargs['lon'])
