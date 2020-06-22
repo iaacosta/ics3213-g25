@@ -1,0 +1,280 @@
+day,truck,order,id,namePoint,lat,lon,volume
+0,3,0,166,Sede Social Real Audiencia ,-33.622626000000004,-70.58724699999999,4.032
+0,3,1,9,Centro Comercial Plaza Puente,-33.611712,-70.57668699999999,10.8
+0,3,2,79,Centro Cultural Juan Estay ,-33.595440999999994,-70.571159,13.8
+0,3,3,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,10.8
+0,3,4,104,Colegio Maipo ,-33.613454,-70.559315,5.247
+0,3,5,184,Dimao,-33.612239,-70.578518,10.8
+0,3,6,129,Escuela Los Andes,-33.614168,-70.56369000000001,12.72
+0,3,7,49,Liceo San Gerónimo,-33.627809,-70.58728599999999,17.28
+0,3,8,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.8
+0,3,9,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.52369,17.175
+0,2,241,89,Centro De Salud Laurita Vicuña,-33.590996999999994,-70.595345,10.8
+0,2,245,74,Duoc Uc,-33.598372,-70.578556,10.8
+0,2,246,75,Edificio Consistorial,-33.595374,-70.579321,4.032
+0,2,248,14,Escuela Ejercito Libertador,-33.608958,-70.591758,10.8
+0,2,249,182,Escuela Republica De Grecia,-33.60569,-70.584327,4.032
+0,2,261,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+0,2,266,137,Sede Social Mariano Latorre,-33.593754,-70.574798,32.7
+0,2,268,38,Sede Social Villa Las Caletas 3,-33.596381,-70.563908,10.407
+0,0,242,157,Conjunto Habitacional  Condominio Brisas Del Maipo,-33.605721,-70.541185,5.247
+0,0,243,28,Conjunto Habitacional Monteverde ,-33.590885,-70.561112,10.8
+0,0,244,119,Consultorio Padre Manuel Villa Seca ,-33.586231,-70.586642,4.032
+0,0,247,42,Escuela Casas Viejas,-33.607861,-70.527158,4.032
+0,0,264,188,Sede Social Cerro La Ballena,-33.598528,-70.558849,21.72
+0,0,265,152,Sede Social Lomas  Orientes,-33.61308,-70.548002,4.032
+0,0,267,132,Parque San Francisco,-33.582471000000005,-70.568569,20.775
+0,1,17,97,Malla de Plástico Finlandia con Circunvalación,-33.615556,-70.55949,3.0
+0,1,98,156,Malla de Plástico Plaza Arquitecto Eugenio Cerda Con Los Molles,-33.587449,-70.58335699999999,1.215
+0,1,99,116,Malla de Plástico Locales comerciales La Foresta,-33.586627,-70.58646800000001,4.5
+0,1,100,148,Malla de Plástico Peñón con Nemesio Vicuña,-33.580096000000005,-70.576554,1.215
+0,1,205,3,Malla de Plástico Villa La Foresta,-33.589551,-70.581898,3.0
+0,1,222,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,1.215
+0,1,238,120,Conjunto Habitacional  Condominio San Pedro,-33.585984,-70.583793,1.215
+0,1,250,95,Malla de Plástico Villa hermanos La Salle,-33.614871,-70.595762,3.0
+0,1,251,172,Sede Social Villa Los Productores B,-33.586143,-70.593086,3.0
+0,1,252,127,Malla de Plástico Villa Andes del Sur ,-33.565225,-70.579437,3.0
+0,1,253,163,Malla de Plástico Villa Caleuche,-33.625156,-70.62013,1.215
+0,1,255,81,Sede Social Villa Los Productores 1,-33.58534,-70.590088,3.0
+0,1,256,87,Malla de Plástico Eduardo Cordero Con Santa Elena ,-33.605610999999996,-70.57427,3.0
+0,1,259,195,Malla de Plástico Trasmontes Con Aragonés,-33.600227000000004,-70.54994599999999,1.215
+0,1,260,198,Malla de Plástico Valle Del Sol Con Valle Rocío ,-33.557116,-70.55958000000001,3.0
+0,1,262,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+0,1,263,159,Sede Social Portal Andino ,-33.590213,-70.566766,1.215
+1,0,10,145,Complejo Educacional Consolidada 1,-33.611784,-70.571731,10.8
+1,0,11,90,Jardín Infantil Carritos de Ilusión,-33.624987,-70.59008,4.032
+1,0,12,62,Jardín infantiles de la Corporación Monseñor Alvear,-33.628714,-70.608713,1.08
+1,0,22,11,Colegio Cordillera ,-33.603169,-70.579759,4.032
+1,0,23,100,Colegio Domingo Matte Mesías,-33.60822,-70.583298,4.032
+1,0,28,80,Colegio Pedro Apóstol ,-33.625009999999996,-70.59218800000001,4.032
+1,0,29,16,Colegio Polivalente Raulí,-33.614405,-70.592515,4.032
+1,0,31,146,Complejo Educacional Consolidada 2,-33.611754,-70.571267,10.8
+1,0,38,147,Escuela Ejercito Libertador,-33.611074,-70.570444,4.032
+1,0,44,51,Escuela Oscar Bonilla,-33.621345,-70.59202900000001,4.032
+1,0,50,155,Jardín infantiles de la Corporación Almendral,-33.630047999999995,-70.620467,1.08
+1,0,55,52,Jardín infantiles de la Corporación Chiloé,-33.627091,-70.623193,1.08
+1,0,58,177,Jardín infantiles de la Corporación Fco. Coloane I,-33.629993,-70.626007,1.08
+1,0,59,8,Jardín infantiles de la Corporación Fco. Coloane II,-33.629342,-70.626868,1.08
+1,0,60,149,Jardín infantiles de la Corporación Ferroviaria,-33.62218,-70.613873,1.08
+1,0,64,54,Jardín infantiles de la Corporación Las Azaleas,-33.613168,-70.623115,1.08
+1,0,68,35,Jardín infantiles de la Corporación Mariscal,-33.615131,-70.624725,1.08
+1,0,69,55,Jardín infantiles de la Corporación Nocedal,-33.624469,-70.597347,1.08
+1,0,72,179,Jardín infantiles de la Corporación Pedro Lira,-33.625765,-70.627975,1.08
+1,0,75,154,Jardín infantiles de la Corporación San José De La Construcción,-33.631176,-70.61770600000001,1.08
+1,0,76,103,Jardín infantiles de la Corporación San Miguel,-33.619577,-70.603983,1.08
+1,0,77,170,Jardín infantiles de la Corporación San Pedro Y San Pablo,-33.615955,-70.598796,1.08
+1,0,78,124,Jardín infantiles de la Corporación Sargento Menadier,-33.621747,-70.620829,1.08
+1,0,82,109,Jardín infantiles de la Corporación Volcán San José,-33.625997999999996,-70.618515,1.08
+1,0,84,7,Liceo Chiloé,-33.626345,-70.622876,10.8
+1,0,87,93,Liceo Volcán San José,-33.626996999999996,-70.61657199999999,4.032
+1,0,90,61,Sede Social Villa Los Apóstoles,-33.630947,-70.61106099999999,1.215
+1,0,94,175,Malla de Plástico Cancha Villa Cerro Morado,-33.628853,-70.62216,3.0
+1,0,107,101,Sede Social Casas Del Huerto,-33.607760999999996,-70.601339,4.032
+1,0,109,47,Sede Social San Miguel 4,-33.619406,-70.60602800000001,4.032
+1,0,110,60,Sede Social Santa Elvira,-33.619640999999994,-70.618015,4.032
+1,2,16,123,Conjunto Habitacional Micro Barrio,-33.585349,-70.608468,1.215
+1,2,21,73,Colegio Compañía de María,-33.590090999999994,-70.579371,4.032
+1,2,24,107,Escuela Industrial Las Nieves,-33.595227,-70.58171999999999,4.032
+1,2,27,136,Colegio Obispo Alvear,-33.589901,-70.594217,4.032
+1,2,30,99,Colegio Santa María de la Cordillera,-33.580284000000006,-70.588115,4.032
+1,2,32,33,Conjunto Habitacional Barrio Holanda,-33.596956,-70.59741700000001,4.032
+1,2,41,13,Escuela Gabriela,-33.57195,-70.599135,4.032
+1,2,42,174,Escuela Nocturna Magdalena Montenegro,-33.623769,-70.589281,4.032
+1,2,45,122,Escuela Padre Hurtado,-33.591894,-70.602372,4.032
+1,2,46,186,Escuela Pedro Aguirre Cerda,-33.621169,-70.584017,10.8
+1,2,47,78,Escuela Villa Independencia,-33.617684000000004,-70.589203,10.8
+1,2,49,32,Fundación Protectora de la Infancia,-33.591249,-70.579904,10.8
+1,2,57,57,Jardín infantiles de la Corporación Don Vicente,-33.569553000000006,-70.606774,1.08
+1,2,63,48,Jardín infantiles de la Corporación La Palmerita ,-33.626979999999996,-70.58726,1.08
+1,2,66,45,Jardín infantiles de la Corporación Los Canales,-33.590906,-70.606922,1.08
+1,2,70,46,Jardín infantiles de la Corporación Pacifico Sur,-33.596246,-70.602689,1.08
+1,2,71,110,Jardín infantiles de la Corporación Padre Hurtado,-33.593446,-70.602271,1.08
+1,2,73,36,Jardín infantiles de la Corporación San Francisco Troncal,-33.571855,-70.609348,1.08
+1,2,74,111,Jardín infantiles de la Corporación San Gerónimo,-33.628758000000005,-70.58641999999999,1.08
+1,2,79,144,Jardín infantiles de la Corporación Sor Teresa,-33.589393,-70.601927,1.08
+1,2,83,72,Liceo Bicentenario San Pedro,-33.626919,-70.577223,10.8
+1,2,85,37,Liceo Comercial,-33.616605,-70.584041,10.8
+1,2,105,137,Sede Social Mariano Latorre,-33.593754,-70.574798,25.95
+1,2,140,116,Malla de Plástico Locales comerciales La Foresta,-33.586627,-70.58646800000001,4.5
+1,2,254,120,Conjunto Habitacional  Condominio San Pedro,-33.585984,-70.583793,1.215
+1,3,19,92,Centro Medico Vida Integra,-33.61329,-70.586936,4.032
+1,3,20,108,Colegio Alemán Rudolf Deckwerth,-33.607576,-70.562213,4.032
+1,3,25,161,Colegio Joaquina Vedruna,-33.60369,-70.573288,10.8
+1,3,26,30,Colegio Merryland,-33.565191999999996,-70.567094,4.032
+1,3,33,65,Conjunto Habitacional Barrio Ingles Jardines de las Vizcachas,-33.600713,-70.51615100000001,4.032
+1,3,34,66,Conjunto Habitacional Condominio 3 Jardines Vizcacha,-33.600713,-70.51615100000001,4.032
+1,3,35,67,Conjunto Habitacional Condominio 4 Jardines Vizcacha,-33.600713,-70.51615100000001,4.032
+1,3,36,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,4.032
+1,3,37,29,Conjunto Habitacional  Condominio Las Lilas ,-33.587019,-70.56043100000001,4.032
+1,3,39,17,Escuela De Lenguaje Todos Los Santos,-33.59324,-70.568933,4.032
+1,3,40,173,Escuela Especial Santa Teresita de los Andes,-33.575761,-70.554138,4.032
+1,3,43,160,Escuela Nonato Coo,-33.603409,-70.57078100000001,14.4
+1,3,48,180,Complejo Educacional Consolidada 3,-33.58511,-70.566361,2.0
+1,3,51,1,Jardín infantiles de la Corporación Altue,-33.603551,-70.566052,1.08
+1,3,52,121,Jardín infantiles de la Corporación Andes Del Sur,-33.571395,-70.568639,1.08
+1,3,53,44,Jardín infantiles de la Corporación Bernardo Leighton,-33.599333,-70.56936,1.08
+1,3,54,43,Jardín infantiles de la Corporación Cerrito Arriba,-33.595298,-70.559728,1.08
+1,3,56,70,Jardín infantiles de la Corporación Creación,-33.616771,-70.571056,1.08
+1,3,61,56,Jardín infantiles de la Corporación Humberto Díaz,-33.599140999999996,-70.558892,1.08
+1,3,62,20,Jardín Infantil Futurama,-33.596907,-70.55777900000001,1.08
+1,3,65,31,Jardín infantiles de la Corporación Lomas Oriente,-33.604586,-70.554712,1.08
+1,3,80,15,Jardín infantiles de la Corporación Villa Casas Viejas,-33.607105,-70.5153,1.08
+1,3,81,19,Jardín infantiles de la Corporación Vista Hermosa,-33.610572999999995,-70.517786,1.08
+1,3,86,6,Liceo Juan Mackenna O´Reilly,-33.563967,-70.554813,4.032
+1,3,88,65,Conjunto Habitacional Barrio Ingles Jardines de las Vizcachas,-33.600713,-70.51615100000001,3.0
+1,3,106,63,Pueblito de Las Vizcachas,-33.599678000000004,-70.529392,4.032
+1,3,111,167,Sede Vecinal Villa El Alba,-33.551463,-70.557089,7.032
+1,3,158,105,Sede social Marcela Paz ,-33.61073,-70.574023,5.247
+1,3,193,50,Jardín Infantil Lucerito De Los Andes ,-33.614571999999995,-70.562425,1.08
+1,1,13,3,Malla de Plástico Villa La Foresta,-33.589551,-70.581898,3.0
+1,1,15,120,Conjunto Habitacional  Condominio San Pedro,-33.585984,-70.583793,1.215
+1,1,89,95,Malla de Plástico Villa hermanos La Salle,-33.614871,-70.595762,3.0
+1,1,91,172,Sede Social Villa Los Productores B,-33.586143,-70.593086,3.0
+1,1,92,127,Malla de Plástico Villa Andes del Sur ,-33.565225,-70.579437,3.0
+1,1,93,163,Malla de Plástico Villa Caleuche,-33.625156,-70.62013,1.215
+1,1,96,81,Sede Social Villa Los Productores 1,-33.58534,-70.590088,3.0
+1,1,97,87,Malla de Plástico Eduardo Cordero Con Santa Elena ,-33.605610999999996,-70.57427,3.0
+1,1,101,195,Malla de Plástico Trasmontes Con Aragonés,-33.600227000000004,-70.54994599999999,1.215
+1,1,102,198,Malla de Plástico Valle Del Sol Con Valle Rocío ,-33.557116,-70.55958000000001,1.215
+1,1,103,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+1,1,104,159,Sede Social Portal Andino ,-33.590213,-70.566766,1.215
+1,1,114,97,Malla de Plástico Finlandia con Circunvalación,-33.615556,-70.55949,3.0
+1,1,115,156,Malla de Plástico Plaza Arquitecto Eugenio Cerda Con Los Molles,-33.587449,-70.58335699999999,1.215
+1,1,141,148,Malla de Plástico Peñón con Nemesio Vicuña,-33.580096000000005,-70.576554,1.215
+1,1,225,116,Malla de Plástico Locales comerciales La Foresta,-33.586627,-70.58646800000001,4.5
+1,1,237,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,1.215
+2,3,116,166,Sede Social Real Audiencia ,-33.622626000000004,-70.58724699999999,4.032
+2,3,117,9,Centro Comercial Plaza Puente,-33.611712,-70.57668699999999,10.8
+2,3,118,79,Centro Cultural Juan Estay ,-33.595440999999994,-70.571159,13.8
+2,3,120,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,10.8
+2,3,121,104,Colegio Maipo ,-33.613454,-70.559315,5.247
+2,3,125,184,Dimao,-33.612239,-70.578518,10.8
+2,3,130,129,Escuela Los Andes,-33.614168,-70.56369000000001,12.72
+2,3,132,49,Liceo San Gerónimo,-33.627809,-70.58728599999999,17.28
+2,3,149,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.8
+2,3,152,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.52369,17.175
+2,2,119,89,Centro De Salud Laurita Vicuña,-33.590996999999994,-70.595345,10.8
+2,2,126,74,Duoc Uc,-33.598372,-70.578556,10.8
+2,2,127,75,Edificio Consistorial,-33.595374,-70.579321,4.032
+2,2,129,14,Escuela Ejercito Libertador,-33.608958,-70.591758,10.8
+2,2,131,182,Escuela Republica De Grecia,-33.60569,-70.584327,10.8
+2,2,144,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+2,2,147,137,Sede Social Mariano Latorre,-33.593754,-70.574798,25.95
+2,2,153,38,Sede Social Villa Las Caletas 3,-33.596381,-70.563908,10.407
+2,0,122,157,Conjunto Habitacional  Condominio Brisas Del Maipo,-33.605721,-70.541185,5.247
+2,0,123,28,Conjunto Habitacional Monteverde ,-33.590885,-70.561112,10.8
+2,0,124,119,Consultorio Padre Manuel Villa Seca ,-33.586231,-70.586642,4.032
+2,0,128,42,Escuela Casas Viejas,-33.607861,-70.527158,4.032
+2,0,148,188,Sede Social Cerro La Ballena,-33.598528,-70.558849,21.72
+2,0,150,152,Sede Social Lomas  Orientes,-33.61308,-70.548002,4.032
+2,0,151,132,Parque San Francisco,-33.582471000000005,-70.568569,20.775
+2,1,14,3,Malla de Plástico Villa La Foresta,-33.589551,-70.581898,3.0
+2,1,95,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,1.215
+2,1,113,120,Conjunto Habitacional  Condominio San Pedro,-33.585984,-70.583793,1.215
+2,1,133,95,Malla de Plástico Villa hermanos La Salle,-33.614871,-70.595762,3.0
+2,1,134,172,Sede Social Villa Los Productores B,-33.586143,-70.593086,3.0
+2,1,135,127,Malla de Plástico Villa Andes del Sur ,-33.565225,-70.579437,3.0
+2,1,136,163,Malla de Plástico Villa Caleuche,-33.625156,-70.62013,1.215
+2,1,138,81,Sede Social Villa Los Productores 1,-33.58534,-70.590088,3.0
+2,1,139,87,Malla de Plástico Eduardo Cordero Con Santa Elena ,-33.605610999999996,-70.57427,3.0
+2,1,142,195,Malla de Plástico Trasmontes Con Aragonés,-33.600227000000004,-70.54994599999999,1.215
+2,1,143,198,Malla de Plástico Valle Del Sol Con Valle Rocío ,-33.557116,-70.55958000000001,3.0
+2,1,145,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+2,1,146,159,Sede Social Portal Andino ,-33.590213,-70.566766,1.215
+2,1,207,97,Malla de Plástico Finlandia con Circunvalación,-33.615556,-70.55949,3.0
+2,1,208,156,Malla de Plástico Plaza Arquitecto Eugenio Cerda Con Los Molles,-33.587449,-70.58335699999999,1.215
+2,1,226,148,Malla de Plástico Peñón con Nemesio Vicuña,-33.580096000000005,-70.576554,1.215
+2,1,257,116,Malla de Plástico Locales comerciales La Foresta,-33.586627,-70.58646800000001,4.5
+3,1,154,86,Conjunto Habitacional Nonato Coo,-33.602746999999994,-70.576018,4.032
+3,1,156,59,Conjunto Habitacional El Refugio 2 Gema ,-33.602042,-70.559952,1.215
+3,1,159,166,Sede Social Real Audiencia ,-33.622626000000004,-70.58724699999999,4.032
+3,1,163,9,Centro Comercial Plaza Puente,-33.611712,-70.57668699999999,10.8
+3,1,164,79,Centro Cultural Juan Estay ,-33.595440999999994,-70.571159,13.8
+3,1,165,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,10.8
+3,1,166,58,Colegio Estela Segura,-33.605452,-70.582605,10.8
+3,1,167,104,Colegio Maipo ,-33.613454,-70.559315,5.247
+3,1,173,18,Conjunto Habitacional  Condominio Las Bandadas ,-33.613837,-70.540885,4.032
+3,1,177,64,Conjunto Habitacional  Condominio Mirador Del Maipo,-33.631943,-70.59121400000001,4.032
+3,1,187,104,Colegio Maipo ,-33.613454,-70.559315,2.0
+3,1,188,184,Dimao,-33.612239,-70.578518,10.8
+3,1,189,129,Escuela Los Andes,-33.614168,-70.56369000000001,12.72
+3,1,192,142,Pueblito de Las Vizcachas,-33.621558,-70.591932,2.0
+3,1,194,178,La Barraca,-33.622906,-70.581677,4.032
+3,1,195,49,Liceo San Gerónimo,-33.627809,-70.58728599999999,17.28
+3,1,196,84,Conjunto Habitacional  El Refugio 2 Marta Larraín,-33.60109,-70.56008299999999,4.59
+3,1,199,185,Sapu Alejandro del rio,-33.607141999999996,-70.579382,4.032
+3,1,200,162,Sede Social Carol Urzúa,-33.602424,-70.560024,4.032
+3,1,201,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.8
+3,1,202,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.52369,17.175
+3,3,67,53,Jardín infantiles de la Corporación Los Nogales,-33.585203,-70.60305600000001,1.08
+3,3,155,102,Dimao,-33.580999,-70.578843,4.032
+3,3,160,126,Edificio Consistorial,-33.586192,-70.600854,4.032
+3,3,161,143,Escuela Los Andes,-33.571569000000004,-70.575085,4.032
+3,3,162,187,Cancha Millancura,-33.578003,-70.595541,4.032
+3,3,168,12,Conjunto Habitacional  Condominio Los Libertadores Portón Azul,-33.577627,-70.598152,4.032
+3,3,169,33,Conjunto Habitacional Barrio Holanda,-33.596956,-70.59741700000001,4.032
+3,3,174,2,Conjunto Habitacional Condominio Portal del Parque,-33.589211,-70.576695,4.032
+3,3,175,76,Conjunto Habitacional Edificio Altum,-33.583622,-70.581461,4.032
+3,3,180,71,Centro De Salud Laurita Vicuña,-33.58444,-70.58363,4.032
+3,3,181,79,Centro Cultural Juan Estay ,-33.595440999999994,-70.571159,4.032
+3,3,184,0,Complejo Educacional Consolidada 4,-33.595485,-70.569705,4.032
+3,3,185,153,Parque San Francisco,-33.580554,-70.602863,4.032
+3,3,191,10,Hospital Sotero Del Río,-33.57703,-70.58126700000001,4.032
+3,3,198,137,Sede Social Mariano Latorre,-33.593754,-70.574798,25.95
+3,3,204,77,Testigos de Jehová Casa Betel,-33.577588,-70.582863,10.8
+3,2,108,105,Sede social Marcela Paz ,-33.61073,-70.574023,5.247
+3,2,157,63,Pueblito de Las Vizcachas,-33.599678000000004,-70.529392,4.032
+3,2,170,65,Conjunto Habitacional Barrio Ingles Jardines de las Vizcachas,-33.600713,-70.51615100000001,10.8
+3,2,171,66,Conjunto Habitacional Condominio 3 Jardines Vizcacha,-33.600713,-70.51615100000001,4.032
+3,2,172,67,Conjunto Habitacional Condominio 4 Jardines Vizcacha,-33.600713,-70.51615100000001,4.032
+3,2,176,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,4.032
+3,2,178,34,Conjunto Habitacional Nuevo Siglo Azul ,-33.589998,-70.56157900000001,4.032
+3,2,179,196,Conjunto Habitacional Troncal San Francisco,-33.589252,-70.556828,4.032
+3,2,182,125,Escuela Nonato Coo,-33.5566,-70.55809,4.032
+3,2,183,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,4.032
+3,2,186,91,Escuela Casas Viejas,-33.55701,-70.550213,4.032
+3,2,190,5,Hospital Psiquiátrico El Peral,-33.57901,-70.55149,10.8
+3,2,197,65,Conjunto Habitacional Barrio Ingles Jardines de las Vizcachas,-33.600713,-70.51615100000001,3.0
+3,2,203,167,Sede Vecinal Villa El Alba,-33.551463,-70.557089,7.032
+4,3,269,9,Centro Comercial Plaza Puente,-33.611712,-70.57668699999999,10.8
+4,3,270,166,Sede Social Real Audiencia ,-33.622626000000004,-70.58724699999999,4.032
+4,3,271,183,Sede Social Eugenio Matte,-33.609764,-70.583765,10.8
+4,3,272,184,Dimao,-33.612239,-70.578518,10.8
+4,3,273,83,Centro Educacional Nueva Creación,-33.589908,-70.547007,10.8
+4,3,274,104,Colegio Maipo ,-33.613454,-70.559315,5.247
+4,3,275,49,Liceo San Gerónimo,-33.627809,-70.58728599999999,17.28
+4,3,276,39,Sede Social Villa Las Caletas III,-33.596381,-70.563908,13.8
+4,3,277,112,Sede Social San Alberto Casas Viejas,-33.613191,-70.52369,17.175
+4,3,278,129,Escuela Los Andes,-33.614168,-70.56369000000001,12.72
+4,2,209,89,Centro De Salud Laurita Vicuña,-33.590996999999994,-70.595345,10.8
+4,2,213,74,Duoc Uc,-33.598372,-70.578556,10.8
+4,2,214,75,Edificio Consistorial,-33.595374,-70.579321,4.032
+4,2,216,14,Escuela Ejercito Libertador,-33.608958,-70.591758,10.8
+4,2,217,182,Escuela Republica De Grecia,-33.60569,-70.584327,10.8
+4,2,229,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+4,2,234,137,Sede Social Mariano Latorre,-33.593754,-70.574798,25.95
+4,2,236,38,Sede Social Villa Las Caletas 3,-33.596381,-70.563908,10.407
+4,0,210,157,Conjunto Habitacional  Condominio Brisas Del Maipo,-33.605721,-70.541185,5.247
+4,0,211,28,Conjunto Habitacional Monteverde ,-33.590885,-70.561112,10.8
+4,0,212,119,Consultorio Padre Manuel Villa Seca ,-33.586231,-70.586642,4.032
+4,0,215,42,Escuela Casas Viejas,-33.607861,-70.527158,4.032
+4,0,232,188,Sede Social Cerro La Ballena,-33.598528,-70.558849,21.72
+4,0,233,152,Sede Social Lomas  Orientes,-33.61308,-70.548002,4.032
+4,0,235,132,Parque San Francisco,-33.582471000000005,-70.568569,20.775
+4,1,18,116,Malla de Plástico Locales comerciales La Foresta,-33.586627,-70.58646800000001,4.5
+4,1,112,3,Malla de Plástico Villa La Foresta,-33.589551,-70.581898,3.0
+4,1,137,197,Conjunto Habitacional Geosal  Nuevo Siglo Morado,-33.588516999999996,-70.558137,1.215
+4,1,206,120,Conjunto Habitacional  Condominio San Pedro,-33.585984,-70.583793,1.215
+4,1,218,95,Malla de Plástico Villa hermanos La Salle,-33.614871,-70.595762,3.0
+4,1,219,172,Sede Social Villa Los Productores B,-33.586143,-70.593086,3.0
+4,1,220,127,Malla de Plástico Villa Andes del Sur ,-33.565225,-70.579437,3.0
+4,1,221,163,Malla de Plástico Villa Caleuche,-33.625156,-70.62013,1.215
+4,1,223,81,Sede Social Villa Los Productores 1,-33.58534,-70.590088,3.0
+4,1,224,87,Malla de Plástico Eduardo Cordero Con Santa Elena ,-33.605610999999996,-70.57427,3.0
+4,1,227,195,Malla de Plástico Trasmontes Con Aragonés,-33.600227000000004,-70.54994599999999,1.215
+4,1,228,198,Malla de Plástico Valle Del Sol Con Valle Rocío ,-33.557116,-70.55958000000001,1.215
+4,1,230,21,Malla de Plástico Fuera Del Líder,-33.594169,-70.55909399999999,9.42
+4,1,231,159,Sede Social Portal Andino ,-33.590213,-70.566766,1.215
+4,1,239,97,Malla de Plástico Finlandia con Circunvalación,-33.615556,-70.55949,3.0
+4,1,240,156,Malla de Plástico Plaza Arquitecto Eugenio Cerda Con Los Molles,-33.587449,-70.58335699999999,1.215
+4,1,258,148,Malla de Plástico Peñón con Nemesio Vicuña,-33.580096000000005,-70.576554,1.215
