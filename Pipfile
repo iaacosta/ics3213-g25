@@ -13,6 +13,7 @@ rope = "*"
 numpy = "*"
 googlemaps = "*"
 pandas = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.8"
