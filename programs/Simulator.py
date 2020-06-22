@@ -6,9 +6,12 @@ TAB = '  '
 
 
 class Simulator:
-    def __init__(self, day, routes_file_path, trucks_file_path, should_log=True):
+    def __init__(self, day, routes_file_path,
+                 trucks_file_path, should_event_log=True,
+                 should_global_log=True):
         self.day = day
-        self.should_log = should_log
+        self.should_event_log = should_event_log
+        self.should_global_log = should_global_log
         self.env = simpy.Environment()
         self.times = {}
         self.simulation_trucks = {}
@@ -25,10 +28,13 @@ class Simulator:
         ))
 
     def raw_log(self, message, n_tabs=0):
+        if not self.should_global_log:
+            return
+
         print(f'{TAB*n_tabs} {message}')
 
     def event_log(self, message):
-        if not self.should_log:
+        if not self.should_event_log:
             return
 
         self.raw_log(f'[t={self.env.now:.2f}] {message}', 1)
@@ -90,6 +96,7 @@ class Simulator:
                     yield self.env.timeout(trip_time)
                     simulation_truck.transit(trip_time)
 
+        simulation_truck.finished = self.env.now
         self.event_log(f'Camión {truck.id} vuelve a municipalidad')
 
     def log_statistics(self):
@@ -106,7 +113,7 @@ class Simulator:
 
             if not self.route_defined(truck) or len(truck.routes[self.day].points) == 0:
                 self.raw_log('Sin rutas', 3)
-                print()
+                self.raw_log('')
                 continue
 
             self.raw_log(
@@ -124,7 +131,7 @@ class Simulator:
             self.raw_log(
                 f'Tiempo en tránsito (hrs): {sim_truck.transit_time:.3f}', 3)
 
-            print()
+            self.raw_log('')
 
     def run(self):
         self.env.process(self.simulate_trucks())

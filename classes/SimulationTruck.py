@@ -15,6 +15,9 @@ class SimulationTruck:
         self.transit_time = 0
         self.unload_time = 0
 
+        # finish time
+        self.finished = 0
+
     def transit(self, time):
         self.transit_time += time
 
